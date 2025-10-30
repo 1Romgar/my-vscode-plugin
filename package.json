@@ -1,0 +1,34 @@
+{
+  "name": "my-first-plugin",
+  "displayName": "my-first-plugin",
+  "description": "My First VS Code Extension",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "my-first-plugin.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "my-first-plugin.showFileInfo",
+        "title": "Show File Info"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.105.0",
+    "@types/node": "22.x",
+    "typescript": "^5.9.3"
+  }
+}
