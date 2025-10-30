@@ -1,6 +1,6 @@
 # My First VS Code Plugin
 
-**Автор:** [Твоё ФИО], [Твоя группа]  
+**Автор:** Гарибян Роман M3118
 **Название плагина:** My First Plugin  
 **Среда разработки:** Visual Studio Code
 
